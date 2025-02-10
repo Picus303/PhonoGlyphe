@@ -1,0 +1,19 @@
+# Python Files
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+
+# Visual Studio Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Test Files
+*test*
+
+# Logs
+*.log
