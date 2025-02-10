@@ -1,0 +1,18 @@
+{
+	"dropout": 0.0,
+	"source_vocab_size": 58,
+	"target_vocab_size": 49,
+	"context_length": 20,
+	"encoder_block_count": 8,
+	"decoder_block_count": 3,
+	"encoder_self_attention_head_count": 4,
+	"decoder_self_attention_head_count": 4,
+	"decoder_cross_attention_head_count": 4,
+	"encoder_self_attention_abstraction_coef": 0.25,
+	"decoder_self_attention_abstraction_coef": 0.25,
+	"decoder_cross_attention_abstraction_coef": 0.25,
+	"encoder_feed_forward_abstraction_coef": 2.0,
+	"decoder_feed_forward_abstraction_coef": 2.0,
+	"dim": 256,
+	"epsilon": 1e-9
+}

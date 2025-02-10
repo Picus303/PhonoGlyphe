@@ -17,3 +17,6 @@ env/
 
 # Logs
 *.log
+
+# Misaki folder
+misaki/
