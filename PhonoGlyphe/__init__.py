@@ -56,7 +56,7 @@ class G2PModel:
 
 		# Load the weights
 		model_path = model_path if model_path is not None else WEIGHTS_PATH
-		self.model.load_state_dict(torch.load(model_path, weights_only=True))
+		self.model.load_state_dict(torch.load(model_path, map_location=self.device, weights_only=True))
 		self.model.to(self.device)
 		self.model.eval()
 
