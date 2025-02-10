@@ -22,3 +22,7 @@ You can easily listen to the final result using `[.](/<GENERATED PHONEMES>/)` in
 
 Phonoglyphe was trained using the English dictionaries of the [Misaki](https://github.com/hexgrad/misaki/) project.
 The training code with be released soon™.
+
+## Acknowledgements
+
+Thanks to [Noelle](https://github.com/auroranemoia/) for her support and all her precious advice.
