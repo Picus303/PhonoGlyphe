@@ -1,6 +1,6 @@
 # PhonoGlyphe
 
-PhonoGlyphe is a G2P (grapheme to phoneme) 6M transformer model meant as a fallback method for the [Misaki](/https://github.com/hexgrad/misaki/) G2P engine. It currently only supports the English language.
+PhonoGlyphe is a G2P (grapheme to phoneme) 6M transformer model meant as a fallback method for the [Misaki](https://github.com/hexgrad/misaki/) G2P engine. It currently only supports the English language.
 
 ![](/img/phonoglyphe.png)
 
@@ -16,9 +16,9 @@ g2p = en.G2P(trf=False, british=False, fallback=fallback)
 print(f"Phonemes: {phonemes}")
 ```
 
-You can easily listen to the final result using `[.](/<GENERATED PHONEMES>/)` in this [HF Space](/https://huggingface.co/spaces/hexgrad/Kokoro-TTS/).
+You can easily listen to the final result using `[.](/<GENERATED PHONEMES>/)` in this [HF Space](https://huggingface.co/spaces/hexgrad/Kokoro-TTS/).
 
 ## Training
 
-Phonoglyphe was trained using the English dictionnaries of the [Misaki](/https://github.com/hexgrad/misaki/) project.
+Phonoglyphe was trained using the English dictionnaries of the [Misaki](https://github.com/hexgrad/misaki/) project.
 The training code with be released soon™.
