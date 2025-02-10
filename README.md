@@ -24,7 +24,7 @@ You can easily listen to the final result using `[.](/<GENERATED PHONEMES>/)` in
 ## Training
 
 Phonoglyphe was trained using the English dictionaries of the [Misaki](https://github.com/hexgrad/misaki/) project.
-The training code with be released soon™.
+The training code can be found in the [training](/training/) folder.
 
 ## Acknowledgements
 
