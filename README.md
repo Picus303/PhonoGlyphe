@@ -10,7 +10,7 @@ PhonoGlyphe is a G2P (grapheme to phoneme) 6M transformer model meant as a fallb
 from misaki import en
 from PhonoGlyphe import G2PModel
 
-fallback = G2PModel(device="cpu")	# Note: with it's small size, PhonoGlyphe is often faster on CPU
+fallback = G2PModel(device="cpu")	# Note: with its small size, PhonoGlyphe is often faster on CPU
 g2p = en.G2P(trf=False, british=False, fallback=fallback)
 
 text = "Misaki is a G2P engine designed for Kokoro models."

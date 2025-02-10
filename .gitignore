@@ -20,3 +20,6 @@ env/
 
 # Misaki folder
 misaki/
+
+# Data
+*.npy
