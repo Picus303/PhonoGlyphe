@@ -61,7 +61,7 @@ class G2PModel:
 		self.model.eval()
 
 		# prepare attention masks
-		self.masks = torch.ones((self.context_length, 1, self.context_length, self.context_length), device=device)
+		self.masks = torch.ones((self.context_length, 1, self.context_length, self.context_length), device=self.device)
 		for i in range(self.context_length - 1):
 			self.masks[i, :, :, i+1:] = 0
 
